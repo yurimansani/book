@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/05/2016, 10:23:02
+    Author     : Yuri Mansani Vieira
+*/
+
+html,
+body,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	margin: 0;
+}
+
+html > * { 
+	border-box: box-sizing;
+	-webkit-border-box: box-sizing;
+	-moz-border-box: box-sizing;
+}
+
+/* [MAIN CSS] ====================================================================== */
+
+.logo {
+	width: 100%;
+	padding: 20px 0;
+	background: #f9f9f9;
+	border-bottom: 4px solid #0A882C;
+	text-align: center;
+}
+
+.wrapper {
+	padding: 20px;
+}
+
+/* [Listagem de Materias] ====================================================================== */
+
+.curso h2 {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #016235;
+	margin-bottom: 20px;
+}
+
+.materias { list-style: none; }
+.materias li {
+	text-align: center;
+	color: #fff;
+
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+
+.materias li a { 
+	display: inline-block;
+	width: 100%;
+	padding: 14px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+.materias li a:hover {
+	text-decoration: none; 
+} 
+.materias li:hover { 
+	opacity: .9;
+	filter: alpha(opacity=90);
+}
+
+.curso-t-1 li {
+	background-color: #00391D;
+	border-bottom: 1px solid #016235;
+}
+.curso-t-2 li {
+	background-color: #278841;
+	border-bottom: 1px solid #016235;
+}
+.curso-t-3 li {
+	background-color: #75B842;
+	border-bottom: 1px solid #649C39;
+}
